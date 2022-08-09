@@ -13,8 +13,7 @@
 
 
 <body>
-
-    <header class="container-fluid bd-dark text-white text-center p-2">
+    <header class="container-fluid bg-dark text-white text-center p-2">
         <h1>Weather Dashboard</h1>
     </header>
 
@@ -57,10 +56,26 @@
                     </div>
                 </div>
 
+                <div class="row d-none" id="weekly-forecast">
+                    <div class="col-10">
+                        <h2>Weekly Forecast</h2>
+                    </div>
+                </div>
                 
+                <div class="row">
+                    <div class="col-md-2 bg-primary text-white m-2 rounded forecast"></div>
+                    <div class="col-md-2 bg-primary text-white m-2 rounded forecast"></div>
+                    <div class="col-md-2 bg-primary text-white m-2 rounded forecast"></div>
+                    <div class="col-md-2 bg-primary text-white m-2 rounded forecast"></div>
+                    <div class="col-md-2 bg-primary text-white m-2 rounded forecast"></div>
+                </div>
             </div>
         </div>
     </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./asset/script.js"></script>
+
 </body>
 
 </html>
